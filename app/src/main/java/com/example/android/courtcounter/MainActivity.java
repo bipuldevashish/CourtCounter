@@ -17,12 +17,12 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void addThreePointsForTeamA(View view){
-        scoreForTeamA = scoreForTeamA + 3;
+        scoreForTeamA = scoreForTeamA + 6;
         displayForTeamA(scoreForTeamA);
     }
 
     public void addTwoPointsForTeamA(View view){
-        scoreForTeamA = scoreForTeamA + 2;
+        scoreForTeamA = scoreForTeamA + 3;
         displayForTeamA(scoreForTeamA);
     }
 
@@ -41,12 +41,12 @@ public class MainActivity extends AppCompatActivity {
 
 
     public void addThreePointsForTeamB(View view){
-        scoreForTeamB = scoreForTeamB + 3;
+        scoreForTeamB = scoreForTeamB + 6;
         displayForTeamB(scoreForTeamB);
     }
 
     public void addTwoPointsForTeamB(View view){
-        scoreForTeamB = scoreForTeamB + 2;
+        scoreForTeamB = scoreForTeamB + 3;
         displayForTeamB(scoreForTeamB);
     }
 

@@ -48,7 +48,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:onClick="addThreePointsForTeamA"
-                android:text="+3 points" />
+                android:text="Touchdown" />
 
             <Button
                 android:id="@+id/TwoPointsTeamA"
@@ -56,7 +56,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:onClick="addTwoPointsForTeamA"
-                android:text="+2 points" />
+                android:text="Field goal" />
 
             <Button
                 android:layout_marginTop="8dp"
@@ -64,7 +64,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:onClick="addFreeThrowForTeamA"
-                android:text="free throw" />
+                android:text="Safety" />
 
         </LinearLayout>
 
@@ -108,7 +108,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="24dp"
                 android:onClick="addThreePointsForTeamB"
-                android:text="+3 points" />
+                android:text="Touchdown" />
 
             <Button
                 android:id="@+id/TwoPointsTeamB"
@@ -116,14 +116,14 @@
                 android:layout_height="wrap_content"
                 android:onClick="addTwoPointsForTeamB"
                 android:layout_marginTop="8dp"
-                android:text="+2 points" />
+                android:text="Field Goal" />
 
             <Button
                 android:id="@+id/freeThrowTeamB"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:onClick="addFreeThrowForTeamB"
-                android:text="free throw"
+                android:text="Safety"
                 android:layout_marginTop="8dp"
                 tools:ignore="OnClick" />
 
